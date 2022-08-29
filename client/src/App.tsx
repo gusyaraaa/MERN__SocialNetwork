@@ -1,7 +1,10 @@
-export const App = () => {
+import { FC } from "react";
+import { LoginForm } from "./components/LoginForm";
+
+export const App: FC = () => {
   return (
     <div className="App">
-      <h1>Hello World!</h1>
+      <LoginForm />
     </div>
   );
 }
